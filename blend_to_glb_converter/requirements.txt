@@ -1,0 +1,17 @@
+# Blend2GLB 转换器 V2.0 依赖
+
+# 核心依赖
+# 注意: 本转换器使用Blender作为后端，因此Python依赖很少
+
+# 可选依赖（用于开发和测试）
+pytest>=6.0.0       # 测试框架
+pytest-cov>=2.10.0  # 代码覆盖率
+
+# 注意事项：
+# 1. 本转换器需要安装Blender 3.0+
+# 2. Blender会自动检测，无需Python包安装
+# 3. 如果未找到Blender，程序会提供安装指南
+#
+# Blender下载地址:
+# https://www.blender.org/download/
+
